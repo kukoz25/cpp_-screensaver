@@ -1,0 +1,144 @@
+\hypertarget{class_lokalnie}{}\doxysection{Lokalnie Class Reference}
+\label{class_lokalnie}\index{Lokalnie@{Lokalnie}}
+
+
+{\ttfamily \#include $<$lokalnie.\+h$>$}
+
+Inheritance diagram for Lokalnie\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_lokalnie}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_lokalnie_a05774499c60f8a8ef095c235d2b068bb}{Lokalnie}} (std\+::string path, std\+::string w)
+\item 
+int \mbox{\hyperlink{class_lokalnie_a185e78319929b42569bddb850e678411}{policzmotywy}} ()
+\item 
+int \mbox{\hyperlink{class_lokalnie_ac10b00ec5a30a7329dc8d5c7215ab2ac}{policzobrazki}} (std\+::string mm)
+\item 
+int \mbox{\hyperlink{class_lokalnie_ac1291eef543b0aa38bcf607d1506844c}{przekaziloscmotywow}} ()
+\begin{DoxyCompactList}\small\item\em funkcja przekazująca ilość motywów w scieżce \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_lokalnie_a1000b5404c7cc934f1ca19c857dc5bb4}{przekazilosczdj}} ()
+\begin{DoxyCompactList}\small\item\em funkcja przekazująca ilość zdjęć w motywie \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_lokalnie_ada7050bf7f1d8433125fdfa053345f7c}{przekazwybranymotyw}} ()
+\begin{DoxyCompactList}\small\item\em funkcja przekazująca nazwe wybranego motywu \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_lokalnie_a4965b2f701964a07a5a58e069bce97be}{pobierzobraz}} (std\+::string \mbox{\hyperlink{classmotyw}{motyw}}, int numer\+\_\+foto)
+\begin{DoxyCompactList}\small\item\em funkcja przekazująca ilość zdjęć w motywie \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_lokalnie_a60b4d415d89927e8b280d89bf3db0df9}\label{class_lokalnie_a60b4d415d89927e8b280d89bf3db0df9}} 
+void {\bfseries zmiensciezke} ()
+\begin{DoxyCompactList}\small\item\em Funkcja zmieniająca scieżkę, w sumie to nie wiem po co ją napisałem. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_lokalnie_a71838ac139afe27ef8981b2e603f5987}\label{class_lokalnie_a71838ac139afe27ef8981b2e603f5987}} 
+{\bfseries $\sim$\+Lokalnie} ()
+\begin{DoxyCompactList}\small\item\em custom dekonstruktor \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa \mbox{\hyperlink{class_lokalnie}{Lokalnie}} dziedzicząca ze źródła
+
+Klasa \mbox{\hyperlink{class_lokalnie}{Lokalnie}} posiada ścieżkę, \mbox{\hyperlink{classmotyw}{motyw(y)}},\mbox{\hyperlink{classobraz}{obraz(y)}} oraz informacje o ilości obrazów oraz motywów oraz nazwe wybranego motywu 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_lokalnie_a05774499c60f8a8ef095c235d2b068bb}\label{class_lokalnie_a05774499c60f8a8ef095c235d2b068bb}} 
+\index{Lokalnie@{Lokalnie}!Lokalnie@{Lokalnie}}
+\index{Lokalnie@{Lokalnie}!Lokalnie@{Lokalnie}}
+\doxysubsubsection{\texorpdfstring{Lokalnie()}{Lokalnie()}}
+{\footnotesize\ttfamily Lokalnie\+::\+Lokalnie (\begin{DoxyParamCaption}\item[{std\+::string}]{path,  }\item[{std\+::string}]{w }\end{DoxyParamCaption})}
+
+Konstruktor 
+\begin{DoxyParams}{Parameters}
+{\em path} & to sciezka pobrana z pliku \\
+\hline
+{\em w} & to wybrany przez uzytkownika motyw \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_lokalnie_a4965b2f701964a07a5a58e069bce97be}\label{class_lokalnie_a4965b2f701964a07a5a58e069bce97be}} 
+\index{Lokalnie@{Lokalnie}!pobierzobraz@{pobierzobraz}}
+\index{pobierzobraz@{pobierzobraz}!Lokalnie@{Lokalnie}}
+\doxysubsubsection{\texorpdfstring{pobierzobraz()}{pobierzobraz()}}
+{\footnotesize\ttfamily std\+::string Lokalnie\+::pobierzobraz (\begin{DoxyParamCaption}\item[{std\+::string}]{motyw,  }\item[{int}]{numer\+\_\+foto }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+funkcja przekazująca ilość zdjęć w motywie 
+
+
+
+Implements \mbox{\hyperlink{class_zrodlo_a792aa95a61a31cdbcbd7bc5e4a7c7260}{Zrodlo}}.
+
+\mbox{\Hypertarget{class_lokalnie_a185e78319929b42569bddb850e678411}\label{class_lokalnie_a185e78319929b42569bddb850e678411}} 
+\index{Lokalnie@{Lokalnie}!policzmotywy@{policzmotywy}}
+\index{policzmotywy@{policzmotywy}!Lokalnie@{Lokalnie}}
+\doxysubsubsection{\texorpdfstring{policzmotywy()}{policzmotywy()}}
+{\footnotesize\ttfamily int Lokalnie\+::policzmotywy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+funkcja licząca motywy \begin{DoxyReturn}{Returns}
+ilość motywów w ścieżce 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_lokalnie_ac10b00ec5a30a7329dc8d5c7215ab2ac}\label{class_lokalnie_ac10b00ec5a30a7329dc8d5c7215ab2ac}} 
+\index{Lokalnie@{Lokalnie}!policzobrazki@{policzobrazki}}
+\index{policzobrazki@{policzobrazki}!Lokalnie@{Lokalnie}}
+\doxysubsubsection{\texorpdfstring{policzobrazki()}{policzobrazki()}}
+{\footnotesize\ttfamily int Lokalnie\+::policzobrazki (\begin{DoxyParamCaption}\item[{std\+::string}]{mm }\end{DoxyParamCaption})}
+
+funkcja licząca obrazy w motywie 
+\begin{DoxyParams}{Parameters}
+{\em mm} & nazwa wybranego motywu \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ilość obrazków w motywach 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_lokalnie_ac1291eef543b0aa38bcf607d1506844c}\label{class_lokalnie_ac1291eef543b0aa38bcf607d1506844c}} 
+\index{Lokalnie@{Lokalnie}!przekaziloscmotywow@{przekaziloscmotywow}}
+\index{przekaziloscmotywow@{przekaziloscmotywow}!Lokalnie@{Lokalnie}}
+\doxysubsubsection{\texorpdfstring{przekaziloscmotywow()}{przekaziloscmotywow()}}
+{\footnotesize\ttfamily int Lokalnie\+::przekaziloscmotywow (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+funkcja przekazująca ilość motywów w scieżce 
+
+
+
+Implements \mbox{\hyperlink{class_zrodlo_a2d472ebde881040f8f123a40751360da}{Zrodlo}}.
+
+\mbox{\Hypertarget{class_lokalnie_a1000b5404c7cc934f1ca19c857dc5bb4}\label{class_lokalnie_a1000b5404c7cc934f1ca19c857dc5bb4}} 
+\index{Lokalnie@{Lokalnie}!przekazilosczdj@{przekazilosczdj}}
+\index{przekazilosczdj@{przekazilosczdj}!Lokalnie@{Lokalnie}}
+\doxysubsubsection{\texorpdfstring{przekazilosczdj()}{przekazilosczdj()}}
+{\footnotesize\ttfamily int Lokalnie\+::przekazilosczdj (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+funkcja przekazująca ilość zdjęć w motywie 
+
+
+
+Implements \mbox{\hyperlink{class_zrodlo_a47eade2da9dc252bf0aca26253a71ef0}{Zrodlo}}.
+
+\mbox{\Hypertarget{class_lokalnie_ada7050bf7f1d8433125fdfa053345f7c}\label{class_lokalnie_ada7050bf7f1d8433125fdfa053345f7c}} 
+\index{Lokalnie@{Lokalnie}!przekazwybranymotyw@{przekazwybranymotyw}}
+\index{przekazwybranymotyw@{przekazwybranymotyw}!Lokalnie@{Lokalnie}}
+\doxysubsubsection{\texorpdfstring{przekazwybranymotyw()}{przekazwybranymotyw()}}
+{\footnotesize\ttfamily std\+::string Lokalnie\+::przekazwybranymotyw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+funkcja przekazująca nazwe wybranego motywu 
+
+
+
+Implements \mbox{\hyperlink{class_zrodlo_a9a0a3ad03b7e872887bb333a5298f09c}{Zrodlo}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+lokalnie.\+h\item 
+lokalnie.\+cpp\end{DoxyCompactItemize}

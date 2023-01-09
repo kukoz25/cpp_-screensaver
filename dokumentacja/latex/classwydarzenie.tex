@@ -1,0 +1,84 @@
+\hypertarget{classwydarzenie}{}\doxysection{wydarzenie Class Reference}
+\label{classwydarzenie}\index{wydarzenie@{wydarzenie}}
+
+
+{\ttfamily \#include $<$wydarzenie.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classwydarzenie_a9388c8008519b1cb8149c28d44e5eb7a}\label{classwydarzenie_a9388c8008519b1cb8149c28d44e5eb7a}} 
+{\bfseries wydarzenie} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor bez parametru. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classwydarzenie_a59a4f14a2dcc75576b102a5954b79edd}{wydarzenie}} (std\+::string d, std\+::string cz)
+\item 
+std\+::string \mbox{\hyperlink{classwydarzenie_a08ada5d712cb0b5fa2281d929f0146b5}{policz\+\_\+sekundy\+\_\+do\+\_\+wydarzenia}} (std\+::string data, std\+::string czas)
+\item 
+std\+::string \mbox{\hyperlink{classwydarzenie_a507b420168574bc82cd89fe018624af9}{przekazdate}} ()
+\item 
+std\+::string \mbox{\hyperlink{classwydarzenie_af630b763e699265feac863ea1a4768f5}{przekazczas}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa wydarzenie zawierająca czas i date wydarzenia oraz obliczająca czas do wydarzenia bazując na zegarze komputera
+
+Klasa motyw zawiera stringa @data oraz @czas 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classwydarzenie_a59a4f14a2dcc75576b102a5954b79edd}\label{classwydarzenie_a59a4f14a2dcc75576b102a5954b79edd}} 
+\index{wydarzenie@{wydarzenie}!wydarzenie@{wydarzenie}}
+\index{wydarzenie@{wydarzenie}!wydarzenie@{wydarzenie}}
+\doxysubsubsection{\texorpdfstring{wydarzenie()}{wydarzenie()}}
+{\footnotesize\ttfamily wydarzenie\+::wydarzenie (\begin{DoxyParamCaption}\item[{std\+::string}]{d,  }\item[{std\+::string}]{cz }\end{DoxyParamCaption})}
+
+Konstruktor z parametrem 
+\begin{DoxyParams}{Parameters}
+{\em d} & jest datą,\\
+\hline
+{\em cz} & jest czasem \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classwydarzenie_a08ada5d712cb0b5fa2281d929f0146b5}\label{classwydarzenie_a08ada5d712cb0b5fa2281d929f0146b5}} 
+\index{wydarzenie@{wydarzenie}!policz\_sekundy\_do\_wydarzenia@{policz\_sekundy\_do\_wydarzenia}}
+\index{policz\_sekundy\_do\_wydarzenia@{policz\_sekundy\_do\_wydarzenia}!wydarzenie@{wydarzenie}}
+\doxysubsubsection{\texorpdfstring{policz\_sekundy\_do\_wydarzenia()}{policz\_sekundy\_do\_wydarzenia()}}
+{\footnotesize\ttfamily std\+::string wydarzenie\+::policz\+\_\+sekundy\+\_\+do\+\_\+wydarzenia (\begin{DoxyParamCaption}\item[{std\+::string}]{data,  }\item[{std\+::string}]{czas }\end{DoxyParamCaption})}
+
+Funkcja licząca czas do wydarzenia oraz zwracająca go w postaci stringa 
+\begin{DoxyParams}{Parameters}
+{\em data} & to data wydarzenia,\\
+\hline
+{\em czas} & to czas wydarzenia \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+policz\+\_\+sekundy\+\_\+do\+\_\+wydarzenia 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classwydarzenie_af630b763e699265feac863ea1a4768f5}\label{classwydarzenie_af630b763e699265feac863ea1a4768f5}} 
+\index{wydarzenie@{wydarzenie}!przekazczas@{przekazczas}}
+\index{przekazczas@{przekazczas}!wydarzenie@{wydarzenie}}
+\doxysubsubsection{\texorpdfstring{przekazczas()}{przekazczas()}}
+{\footnotesize\ttfamily std\+::string wydarzenie\+::przekazczas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja zwracająca czas\begin{DoxyReturn}{Returns}
+czas 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classwydarzenie_a507b420168574bc82cd89fe018624af9}\label{classwydarzenie_a507b420168574bc82cd89fe018624af9}} 
+\index{wydarzenie@{wydarzenie}!przekazdate@{przekazdate}}
+\index{przekazdate@{przekazdate}!wydarzenie@{wydarzenie}}
+\doxysubsubsection{\texorpdfstring{przekazdate()}{przekazdate()}}
+{\footnotesize\ttfamily std\+::string wydarzenie\+::przekazdate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja zwracająca date\begin{DoxyReturn}{Returns}
+data 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+wydarzenie.\+h\item 
+wydarzenie.\+cpp\end{DoxyCompactItemize}

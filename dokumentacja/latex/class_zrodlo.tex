@@ -1,0 +1,103 @@
+\hypertarget{class_zrodlo}{}\doxysection{Zrodlo Class Reference}
+\label{class_zrodlo}\index{Zrodlo@{Zrodlo}}
+
+
+Klasa zrodlo będąca klasą wirtualną, a bo źródeł możę być wiele.  
+
+
+
+
+{\ttfamily \#include $<$zrodlo.\+h$>$}
+
+Inheritance diagram for Zrodlo\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_zrodlo}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual std\+::string \mbox{\hyperlink{class_zrodlo_a792aa95a61a31cdbcbd7bc5e4a7c7260}{pobierzobraz}} (std\+::string \mbox{\hyperlink{classmotyw}{motyw}}, int numer\+\_\+foto)=0
+\item 
+virtual int \mbox{\hyperlink{class_zrodlo_a47eade2da9dc252bf0aca26253a71ef0}{przekazilosczdj}} ()=0
+\begin{DoxyCompactList}\small\item\em wirtualna funkcja licząca ilość zdjęć w motywie \end{DoxyCompactList}\item 
+virtual std\+::string \mbox{\hyperlink{class_zrodlo_a9a0a3ad03b7e872887bb333a5298f09c}{przekazwybranymotyw}} ()=0
+\begin{DoxyCompactList}\small\item\em wirtualna funkcja przekazująca dalej wybrany motyw \end{DoxyCompactList}\item 
+virtual int \mbox{\hyperlink{class_zrodlo_a2d472ebde881040f8f123a40751360da}{przekaziloscmotywow}} ()=0
+\begin{DoxyCompactList}\small\item\em wirtualna funkcja przekazująca ilość motywów \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa zrodlo będąca klasą wirtualną, a bo źródeł możę być wiele. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_zrodlo_a792aa95a61a31cdbcbd7bc5e4a7c7260}\label{class_zrodlo_a792aa95a61a31cdbcbd7bc5e4a7c7260}} 
+\index{Zrodlo@{Zrodlo}!pobierzobraz@{pobierzobraz}}
+\index{pobierzobraz@{pobierzobraz}!Zrodlo@{Zrodlo}}
+\doxysubsubsection{\texorpdfstring{pobierzobraz()}{pobierzobraz()}}
+{\footnotesize\ttfamily virtual std\+::string Zrodlo\+::pobierzobraz (\begin{DoxyParamCaption}\item[{std\+::string}]{motyw,  }\item[{int}]{numer\+\_\+foto }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Wirtualna funkcja tworząca/pobierająca obraz
+
+
+\begin{DoxyParams}{Parameters}
+{\em motyw} & będąca wybranym motywem \\
+\hline
+{\em numer\+\_\+foto} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+zwraca ścieżkę do obrazu 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_lokalnie_a4965b2f701964a07a5a58e069bce97be}{Lokalnie}}.
+
+\mbox{\Hypertarget{class_zrodlo_a2d472ebde881040f8f123a40751360da}\label{class_zrodlo_a2d472ebde881040f8f123a40751360da}} 
+\index{Zrodlo@{Zrodlo}!przekaziloscmotywow@{przekaziloscmotywow}}
+\index{przekaziloscmotywow@{przekaziloscmotywow}!Zrodlo@{Zrodlo}}
+\doxysubsubsection{\texorpdfstring{przekaziloscmotywow()}{przekaziloscmotywow()}}
+{\footnotesize\ttfamily virtual int Zrodlo\+::przekaziloscmotywow (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+wirtualna funkcja przekazująca ilość motywów 
+
+
+
+Implemented in \mbox{\hyperlink{class_lokalnie_ac1291eef543b0aa38bcf607d1506844c}{Lokalnie}}.
+
+\mbox{\Hypertarget{class_zrodlo_a47eade2da9dc252bf0aca26253a71ef0}\label{class_zrodlo_a47eade2da9dc252bf0aca26253a71ef0}} 
+\index{Zrodlo@{Zrodlo}!przekazilosczdj@{przekazilosczdj}}
+\index{przekazilosczdj@{przekazilosczdj}!Zrodlo@{Zrodlo}}
+\doxysubsubsection{\texorpdfstring{przekazilosczdj()}{przekazilosczdj()}}
+{\footnotesize\ttfamily virtual int Zrodlo\+::przekazilosczdj (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+wirtualna funkcja licząca ilość zdjęć w motywie 
+
+
+
+Implemented in \mbox{\hyperlink{class_lokalnie_a1000b5404c7cc934f1ca19c857dc5bb4}{Lokalnie}}.
+
+\mbox{\Hypertarget{class_zrodlo_a9a0a3ad03b7e872887bb333a5298f09c}\label{class_zrodlo_a9a0a3ad03b7e872887bb333a5298f09c}} 
+\index{Zrodlo@{Zrodlo}!przekazwybranymotyw@{przekazwybranymotyw}}
+\index{przekazwybranymotyw@{przekazwybranymotyw}!Zrodlo@{Zrodlo}}
+\doxysubsubsection{\texorpdfstring{przekazwybranymotyw()}{przekazwybranymotyw()}}
+{\footnotesize\ttfamily virtual std\+::string Zrodlo\+::przekazwybranymotyw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+wirtualna funkcja przekazująca dalej wybrany motyw 
+
+
+
+Implemented in \mbox{\hyperlink{class_lokalnie_ada7050bf7f1d8433125fdfa053345f7c}{Lokalnie}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+zrodlo.\+h\end{DoxyCompactItemize}
